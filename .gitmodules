@@ -1,0 +1,6 @@
+[submodule "legal-search-front"]
+	path = legal-search-front
+	url = https://github.com/gillysayres/legal-search-front
+[submodule "legal_search_rails_api"]
+	path = legal_search_rails_api
+	url = https://github.com/gillysayres/legal_search_rails_api

@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  react_app:
+    container_name: legal-search-react-app
+    build:
+      context: ./legal-search-front
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./legal-search-front:/app
+      - /app/node_modules
+    environment:
+      - API_URL=http://rails_api:3001
+
+  rails_api:
+    container_name: legal-search-rails-api
+    build:
+      context: ./legal_search_rails_api
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./legal_search_rails_api:/app
+    environment:
+      - DATABASE_URL=postgres://postgres:mysecretpassword@db:5432/legal_search_rails_api_development
+    depends_on:
+      - db
+
+  db:
+    container_name: legal-search-db
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: legal_search_rails_api_development
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
