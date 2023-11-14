@@ -1,4 +1,4 @@
-![Banner](https://res.cloudinary.com/dloadb2bx/image/upload/v1699809036/legalsearch_qj34yx.png)
+
 
 # Legal Search App
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)  ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)    
@@ -29,9 +29,12 @@ The platform's architecture is built on a robust technology foundation, ensuring
 
 ## How to run this project
 
-1 - docker-compose build
-2 - docker-compose up
-3 - ~/legal-search/legal_search_rails_api/db/seeds.rb and collect any of the pre-generated CNJ numbers in order to test
+
+ 1. git clone --recurse-submodules https://github.com/gillysayres/legal-search
+ 2. docker-compose build 
+ 3. docker-compose up 
+ 4. ~/legal-search/legal_search_rails_api/db/seeds.rb and collect any of
+    the pre-generated CNJ numbers in order to test
 
 ### Docker compose
 ```
@@ -103,8 +106,7 @@ volumes:
 [x] Tests for React 
 
 ## API endpoint
-[API Gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif)
-
+![API Gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif)
 **POST**
 
 ```
@@ -125,7 +127,7 @@ RESPONSE: [{
 ```
 
 ## Tests
-![React tests]([https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67](https://github.com/gillysayres/legal-search/assets/70576668/7b1cf797-fe82-48c1-93b8-1be6b95bf6fb))
+![React tests](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699975608/z2doozuglv1xdnolmao5.png)
 ![Rails tests](https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67)
 
 ## Steps of development
@@ -134,7 +136,7 @@ The development of the Legal Search Platform took a dual-front approach. The fir
 ### Backend development steps
 - “I waws suppose to describe what I did along the week, but today is desperation day and the project 'better to be done than perfect'”
 - "Ps.: Sometimes I fix my problems with humor"
-[rambo]([https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)
+![Rambo](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)
 
 ### Frotend development steps
 - "Refer to what I wrote for the Backend"
