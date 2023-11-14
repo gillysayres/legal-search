@@ -29,6 +29,9 @@ The platform's architecture is built on a robust technology foundation, ensuring
 
 ## How to run this project
 
+1 - docker-compose build
+2 - docker-compose up
+
 ### Docker compose
 ```
 version: '3.8'
@@ -90,6 +93,16 @@ volumes:
 
 [X] To list ..............., it is mandatory to provide ............... 
 
+## Improvements
+
+[] "Nenhum resultado encontrado" should only be shown if there was actually a search performed
+[] Frontend layout
+[] 402/403 Page
+[] Asc/Desc order for movements
+[] Tests for React 
+[] 
+[] 
+[] 
 
 ## API endpoint
 ![Insomnia](https://github.com/gillysayres/legal-search/assets/70576668/6fa750f4-2368-4878-a5ed-9760162abafb)
@@ -116,8 +129,6 @@ RESPONSE: [{
 ## Tests
 XXX tests were developed for this application.
 ![enter image description here](https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67)
-
-## How to run this project
 
 ## Steps of development
 The development of the Legal Search Platform took a dual-front approach. The first step was to meticulously constructed the API from scratch, ensuring robustness and efficiency in handling legal data. Simultaneously, the frontend interface of the application was developed to seamlessly consume the data provided by the API. This two-pronged development strategy ensures a cohesive and integrated user experience.
