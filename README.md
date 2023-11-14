@@ -31,6 +31,7 @@ The platform's architecture is built on a robust technology foundation, ensuring
 
 1 - docker-compose build
 2 - docker-compose up
+3 - ~/legal-search/legal_search_rails_api/db/seeds.rb and collect any of the pre-generated CNJ numbers in order to test
 
 ### Docker compose
 ```
@@ -95,14 +96,15 @@ volumes:
 
 ## Improvements
 
-[] "Nenhum resultado encontrado" should only be shown if there was actually a search performed
-[] Frontend layout
-[] 402/403 Page
-[] Asc/Desc order for movements
-[] Tests for React 
-[] 
-[] 
-[] 
+[x] "Nenhum resultado encontrado" should only be shown if there was actually a search performed
+
+[x] Frontend layout
+
+[x] 402/403 Page
+
+[x] Asc/Desc order for movements
+
+[x] Tests for React 
 
 ## API endpoint
 ![Insomnia](https://github.com/gillysayres/legal-search/assets/70576668/6fa750f4-2368-4878-a5ed-9760162abafb)
@@ -134,10 +136,8 @@ RESPONSE: [{
 The development of the Legal Search Platform took a dual-front approach. The first step was to meticulously constructed the API from scratch, ensuring robustness and efficiency in handling legal data. Simultaneously, the frontend interface of the application was developed to seamlessly consume the data provided by the API. This two-pronged development strategy ensures a cohesive and integrated user experience.
 
 ### Backend development steps
-- Day 01
-- Day 02
+- “I waws suppose to describe what I did along the week, but today is desperation day and the project 'better to be done than perfect'”
+- "Ps.: Sometimes I fix my problems with humor"
 
 ### Frotend development steps
-- Day 01
-- Day 02
-- Desperation
+- "Refer to what I wrote for the Backend"
