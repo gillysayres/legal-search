@@ -134,7 +134,7 @@ RESPONSE: [{
 The development of the Legal Search Platform took a dual-front approach. The first step was to meticulously constructed the API from scratch, ensuring robustness and efficiency in handling legal data. Simultaneously, the frontend interface of the application was developed to seamlessly consume the data provided by the API. This two-pronged development strategy ensures a cohesive and integrated user experience.
 
 ### Backend development steps
-- “I was suppose to describe what I did along the week, but today is desperation day and the project 'better to be done than perfect'”
+- “I was supposed to describe what I did along the week, but today is desperation day and the project 'better to be done than perfect'”
 - "Ps.: Sometimes I fix my problems with humor"
 ![Rambo](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)
 
