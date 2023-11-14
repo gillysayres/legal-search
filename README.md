@@ -90,10 +90,6 @@ volumes:
 
 [X] It should have tests for both frontend and backend
 
-## Business Rules
-
-[X] To list ..............., it is mandatory to provide ............... 
-
 ## Improvements
 
 [x] "Nenhum resultado encontrado" should only be shown if there was actually a search performed
@@ -107,7 +103,7 @@ volumes:
 [x] Tests for React 
 
 ## API endpoint
-![Insomnia](https://github.com/gillysayres/legal-search/assets/70576668/6fa750f4-2368-4878-a5ed-9760162abafb)
+[API Gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif)
 
 **POST**
 
@@ -138,6 +134,7 @@ The development of the Legal Search Platform took a dual-front approach. The fir
 ### Backend development steps
 - “I waws suppose to describe what I did along the week, but today is desperation day and the project 'better to be done than perfect'”
 - "Ps.: Sometimes I fix my problems with humor"
+[rambo]([https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)
 
 ### Frotend development steps
 - "Refer to what I wrote for the Backend"
