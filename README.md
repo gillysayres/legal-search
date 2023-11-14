@@ -127,8 +127,8 @@ RESPONSE: [{
 ```
 
 ## Tests
-XXX tests were developed for this application.
-![enter image description here](https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67)
+![React tests]([https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67](https://github.com/gillysayres/legal-search/assets/70576668/7b1cf797-fe82-48c1-93b8-1be6b95bf6fb))
+![Rails tests](https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67)
 
 ## Steps of development
 The development of the Legal Search Platform took a dual-front approach. The first step was to meticulously constructed the API from scratch, ensuring robustness and efficiency in handling legal data. Simultaneously, the frontend interface of the application was developed to seamlessly consume the data provided by the API. This two-pronged development strategy ensures a cohesive and integrated user experience.
