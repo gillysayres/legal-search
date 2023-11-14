@@ -31,6 +31,7 @@ The platform's architecture is built on a robust technology foundation, ensuring
 
 1 - docker-compose build
 2 - docker-compose up
+3 - ~/legal-search/legal_search_rails_api/db/seeds.rb and collect any of the pre-generated CNJ numbers in order to test
 
 ### Docker compose
 ```
@@ -89,23 +90,20 @@ volumes:
 
 [X] It should have tests for both frontend and backend
 
-## Business Rules
-
-[X] To list ..............., it is mandatory to provide ............... 
-
 ## Improvements
 
-[] "Nenhum resultado encontrado" should only be shown if there was actually a search performed
-[] Frontend layout
-[] 402/403 Page
-[] Asc/Desc order for movements
-[] Tests for React 
-[] 
-[] 
-[] 
+[x] "Nenhum resultado encontrado" should only be shown if there was actually a search performed
+
+[x] Frontend layout
+
+[x] 402/403 Page
+
+[x] Asc/Desc order for movements
+
+[x] Tests for React 
 
 ## API endpoint
-![Insomnia](https://github.com/gillysayres/legal-search/assets/70576668/6fa750f4-2368-4878-a5ed-9760162abafb)
+[API Gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif)
 
 **POST**
 
@@ -127,17 +125,16 @@ RESPONSE: [{
 ```
 
 ## Tests
-XXX tests were developed for this application.
-![enter image description here](https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67)
+![React tests]([https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67](https://github.com/gillysayres/legal-search/assets/70576668/7b1cf797-fe82-48c1-93b8-1be6b95bf6fb))
+![Rails tests](https://camo.githubusercontent.com/cfc53ef47bcc74ba81b17f873b5ad13459dd7d567016b224d6351a608fc66d94/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646c6f6164623262782f696d6167652f75706c6f61642f76313632363536383135342f746f7572697374546573745f7170377561652e706e67)
 
 ## Steps of development
 The development of the Legal Search Platform took a dual-front approach. The first step was to meticulously constructed the API from scratch, ensuring robustness and efficiency in handling legal data. Simultaneously, the frontend interface of the application was developed to seamlessly consume the data provided by the API. This two-pronged development strategy ensures a cohesive and integrated user experience.
 
 ### Backend development steps
-- Day 01
-- Day 02
+- “I waws suppose to describe what I did along the week, but today is desperation day and the project 'better to be done than perfect'”
+- "Ps.: Sometimes I fix my problems with humor"
+[rambo]([https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974698/czmcus6v8ywxom153aqn.gif](https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)https://res.cloudinary.com/dpqvjewsl/image/upload/v1699974771/pdsbunokimn9xmqrczjb.jpg)
 
 ### Frotend development steps
-- Day 01
-- Day 02
-- Desperation
+- "Refer to what I wrote for the Backend"
